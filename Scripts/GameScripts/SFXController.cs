@@ -1,0 +1,14 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SFXController : MonoBehaviour
+{
+    // Start is called before the first frame update
+    public AudioSource gunShot;
+
+    public void GunShot()
+    {
+        gunShot.Play();
+    }
+}
